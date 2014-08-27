@@ -1,0 +1,244 @@
+html, body {
+   background: #000;
+}
+
+a, a:active, a:visited, a:hover {
+   text-decoration: none !important;
+}
+
+#wrapper {
+   overflow: hidden;
+   background: #fff url(../images/shadow.png?v=3) bottom center repeat-x;
+}
+
+#content-wrapper, #sub-bar-wrapper, #main-bar-wrapper, #copyrights-etc {
+   min-width: 730px;
+   max-width: 984px;
+   position: relative;
+   margin:0 auto;
+}
+
+#wiki-sites div {
+   max-width: 1000px;
+}
+
+#main-bar {
+   background: #F1F0F0 url(../images/bar-gradient.png) repeat-x;
+   border-bottom:1px solid #ededed;
+   height:60px;
+}
+
+#main-bar-wrapper {
+   padding:20px 0;
+}
+
+#main-bar-wrapper select {
+   padding:5px;
+   font-size:12px;
+   margin-top:-4px;
+}
+
+#main-bar-wrapper .fleft a {
+   padding:0 10px 0 0;
+   margin: 0 0 0 10px;
+   color:#4f4f4f;
+   border-right: 1px dotted #ddd;
+   font-size:11px;
+}
+
+#main-bar-wrapper .fleft a:first-child {
+   margin:0;
+}
+
+#main-bar-wrapper .fleft a:last-child {
+   border-right:none;
+}
+
+#sub-bar {
+   background: #000;
+   font-size:15px;
+   font-weight:bold;
+}
+
+#sub-bar-wrapper, #main-bar-wrapper, #copyrights-etc {
+   overflow: hidden;
+}
+
+#sub-bar-wrapper .fleft {
+   margin-left:200px;   
+}
+
+#sub-bar a {
+   cursor: pointer;
+   display: inline-block;
+   padding:14px 12px;
+   color:#fff;
+   width:160px;
+   text-align: left;
+}
+
+#sub-bar a.selected {
+   background: #fff;
+   color: #000;   
+}
+
+#login {
+   text-align: right !important;
+   padding-right:0;
+}
+
+#head {
+   margin-top:50px;
+   overflow: hidden;
+}
+
+#firstHeading {
+   padding-bottom:10px;
+   border-bottom:1px solid #000;
+}
+
+#wiki-sites {
+   margin-top:80px;
+}
+
+#copyrights-etc {
+   color:#fff;
+   font-size:12px;
+   padding:40px 0;
+}
+
+#copyrights-etc .fleft {
+   width:750px;
+   line-height: 20px;
+}
+
+#copyrights-etc .fleft a {
+   color:#fff;
+   margin-right:15px;
+}
+
+
+#tasks {
+   background: #efefef;
+   overflow: hidden;
+}
+
+#tasks-wrapper {
+   margin:20px 25px;
+}
+
+#tasks a {
+   width:120px;
+   display: inline-block;
+   margin:0 15px 0 0;
+   color:#000;
+   font-size:14px;
+   height:45px;
+   line-height: 45px;
+   padding:0 15px;
+   background: #fff;
+   overflow: hidden;
+   cursor: pointer;
+}
+
+#tasks .close {
+   font-size:30pt;
+   padding:0;
+   float:right;
+   width:45px;
+   margin:0;
+   text-align: center;
+}
+
+#tasks a span {
+   font-size:15pt;
+   font-weight:bold;
+   float:right;
+}
+
+#search {
+   padding-top:28px;
+}
+
+#head {
+   margin-bottom:30px;
+}
+
+#full-article {
+   margin-top:30px;
+}
+
+#head-tasks {
+   margin-left:82px;
+   padding-top:15px;
+   overflow: hidden;
+}
+
+#head-tasks a {
+   display: inline-block;
+   width: 88px;
+   height:78px;
+   text-align: center;
+   border:1px solid #fff;
+   color:#000;
+   font-size:12px;
+   cursor: pointer;
+   float:left;
+}
+
+#head-tasks a span {
+   display: block;
+}
+
+#head-tasks a img {
+   display:inline-block;
+   width:32px;
+   height:32px;
+   margin:11px 0 10px;
+}
+
+#head-tasks a.separator {
+   border-right:1px solid #efefef;
+}
+
+#head-tasks a:hover, #head-tasks a:active, #head-tasks a:focus {
+   border:1px solid #000;
+}
+
+#fx-fix { /*to fix the effect flicker */
+   clear:both;
+   height:1px;
+   overflow:hidden;
+}
+
+#wikiResults {
+   margin:-3px 0 0 0 !important;
+   right:2px;
+}
+
+#jumpr-share-float {
+   position: absolute;
+   left:50%;
+   /*margin-left:-563px;*/
+   z-index:1000;
+   top:409px;
+   display:none;
+}
+
+#jumpr-share-float.fixed {
+   top:20px !important;
+   position:fixed;
+}
+
+#full-article {
+   min-height: 200px;
+}
+
+#about {
+	position:absolute !important;
+	z-index:9000;
+}
+
+#q {
+   margin: 0 !important;
+}

@@ -1,0 +1,199 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+        display: block;
+}
+body {
+        line-height: 1;
+	overflow-x:hidden;
+}
+ol, ul {
+        list-style: none;
+}
+blockquote, q {
+        quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+        content: '';
+        content: none;
+}
+
+
+html, body {
+        font-family: 'Arial', sans-serif;
+        font-size: 13px;
+}
+
+.fleft {
+        float:left;
+}
+
+.fright {
+        float:right;
+}
+
+.clear {
+        clear:both;
+}
+
+input, textarea, select {
+        background: #fff;
+}
+
+.big-input {
+        padding:15px 10px;
+        border-top: 1px solid #000; 
+        border-left: 1px solid #000; 
+        border-right: 1px solid #eee; 
+        border-bottom: 1px solid #eee;
+        background: #fff;
+}
+
+.big-input:focus, .big-input:active {
+        outline: none;
+}
+
+:focus {
+        outline-color: #888;
+}
+
+a, a:visited, .a {
+        color: #15C;
+        text-decoration: none;
+}
+
+#q {
+   background-image: url(../images/search.png);
+   background-position: 190px center;
+   background-repeat: no-repeat;
+}
+
+#wiki-sites {
+    overflow: hidden;
+    text-align: justify;    
+    position: relative;
+    z-index: 9001;
+    bottom:0;   
+    left:0;
+    right:0;
+    width:100%;
+}
+
+#wiki-sites div {
+   margin:0 auto -22px auto;
+   padding:0 20px;
+   max-width:1024px;
+}
+
+#wiki-sites #colspan {
+   display: inline-block;
+   width:4000em;
+   height:10px;
+}
+
+#wiki-sites a {
+   display:inline-block;
+   padding-bottom:30px;
+}
+
+#wiki-sites a:hover {
+   background: url(../images/arrow.png?v=6) center bottom no-repeat;   
+}
+
+
+#media-wiki {
+   text-align: center;
+}
+
+#media-wiki img {
+   margin:40px 0;
+}
+
+#about {
+        font-size:13px;
+        width:250px;
+        height:305px;
+        background: #f5f5f5;
+        border:1px solid #ddd;
+	border-right:0;
+        position: fixed;
+        top:120px;
+        margin-right:-252px;
+	right:0;
+}
+
+#about #about-wrapper {
+        margin:20px;
+        line-height: 20px;
+}
+
+#about #about-wrapper div {
+        margin:15px 0 10px;
+}
+
+#about-btn {
+        width:40px;
+        height:105px;
+        background: #f5f5f5 url(../images/about.png) center center no-repeat;
+        position: absolute;
+        top:20px;
+        text-indent: -1000em;
+        border:1px solid #ddd;
+        border-right:0;
+        right:250px;
+}
+
+#about-btn {
+        cursor: pointer;
+}
+
+#wikiResults {
+        font-size:12px;
+        text-align: left;
+        overflow:hidden;
+        display:none;
+        position:absolute;
+        margin:0;
+        padding:0;
+        border-top:0 !important;
+        color:#333;
+        background:#ffffff;
+        z-index:9000;
+        border-left: 1px solid #000; 
+        border-right: 1px solid #eee; 
+        border-bottom: 1px solid #eee;
+}
+
+#wikiResults li {
+    padding:5px 10px;
+    cursor:pointer;
+}
+
+#wikiResults li:active, #selectedItem  {
+    background:#eee;
+}
