@@ -8,19 +8,14 @@ A different way to read wiki articles.
 > (http://wikipediaredefined.com) by NEW! agency (http://newisnew.lt/en).
 
 
-Installation
----
+### Installation
 To install this, just copy to a directory and edit the configuration.php
 
 For now, this code is just the redesigned home page of Wikipedia.org and the
 article page. If you can, please contribute by adding more functionalities.
 
-Contact-me: me@ramon82.com
 
-
-File structure:
----
-
+### File structure
 ```
  cache/                      cache files if you use php to parse articles
 
@@ -64,8 +59,7 @@ File structure:
  
 ```
 
-License
----
+### License
 Some code of this program have their own license, please see the notes in their
 respective source-code.
 
