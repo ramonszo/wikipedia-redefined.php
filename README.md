@@ -1,6 +1,8 @@
 Wikipedia Redefined
 ===
-A different way to read wiki articles. [`See a demo here.`](https://projects.ramon.codes/wikipedia-redefined)
+![Wikipedia Redefined Preview](https://raw.githubusercontent.com/ramon82/wikipedia-redefined.php/master/preview.png)
+## A different way to read wiki articles. 
+[`See a demo here.`](https://projects.ramon.codes/wikipedia-redefined)
 
 > **Note:**
 >
