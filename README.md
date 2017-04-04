@@ -1,6 +1,6 @@
 Wikipedia Redefined
 ===
-A different way to read wiki articles.
+A different way to read wiki articles. [`See a demo here.`](https://projects.ramon.codes/wikipedia-redefined)
 
 > **Note:**
 >
@@ -16,9 +16,9 @@ For now, this code is just the redesigned home page of Wikipedia.org and the
 article page. If you can, please contribute by adding more functionalities.
 
 
-File structure:
+File structure
 ---
-See [`FILE-STRUCTURE.md`](https://github.com/ramon82/wikipedia-redefined.php/blob/master/FILE-STRUCTURE.md).
+See [`FILE-STRUCTURE.md`](https://github.com/ramon82/wikipedia-redefined.php/blob/master/FILE-STRUCTURE.md)
 
 
 License
