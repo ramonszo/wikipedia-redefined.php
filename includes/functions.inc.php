@@ -36,19 +36,11 @@
 			The original design and all ideas come from the project "<a href="http://wikipediaredefined.com" target="_blank">Wikipedia Redefined</a>" by <a href="http://newisnew.lt/en" target="_blank">NEW! agency</a>.
 			<br><br>
 			
-			I (<a href="http://ramon82.com" target="_blank">Ramon</a>) only did the code, which is available on github:
+			I only did the code, which is available on github:
 			<div>
-				<iframe src="http://ghbtns.com/github-btn.html?user=ramon82&repo=wikipedia-redefined&type=fork&count=true"  allowtransparency="true" frameborder="0" scrolling="0" width="95px" height="20px"></iframe>
-				<iframe src="http://ghbtns.com/github-btn.html?user=ramon82&repo=wikipedia-redefined&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95px" height="20px"></iframe>
+				<iframe src="//ghbtns.com/github-btn.html?user=ramon82&repo=wikipedia-redefined&type=fork&count=true"  allowtransparency="true" frameborder="0" scrolling="0" width="95px" height="20px"></iframe>
+				<iframe src="//ghbtns.com/github-btn.html?user=ramon82&repo=wikipedia-redefined&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95px" height="20px"></iframe>
 			</div>
-			'.(($wikiConfig['show-social-buttons']==true)?'
-			Share the project to help us:
-			<div class="jump-share-icons">
-				<!-- generate this widget here: http://jumpr.me/widgets/?socialbuttons -->
-				<a href="http://jumpr.me/?redir=share&ref=widget-alternative&url=http%3A%2F%2Fwikipedia.ramon82.com&msg=The%20redesigned%20Wikipedia" data-url="http://wikipedia.ramon82.com" data-msg="The redesigned Wikipedia" data-remove="" data-fb="" data-sitename="Wikipedia Redefined" data-count="true" data-gplus-count="true" data-grey-style="true" data-layout="horizontal" data-tooltip="bottom">Share "Wikipedia Redefined" on Jump, Facebook or Twitter</a>
-			</div>
-			':'').'
-			Enjoy! :D
 		</div>
          </section>';
 	}

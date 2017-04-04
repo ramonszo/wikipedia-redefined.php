@@ -89,7 +89,7 @@ a, a:visited, .a {
 
 #q {
    background-image: url(../images/search.png);
-   background-position: 190px center;
+   background-position: 98% center;
    background-repeat: no-repeat;
 }
 
@@ -137,7 +137,7 @@ a, a:visited, .a {
 #about {
         font-size:13px;
         width:250px;
-        height:305px;
+        height:200px;
         background: #f5f5f5;
         border:1px solid #ddd;
 	border-right:0;

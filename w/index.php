@@ -103,9 +103,9 @@
 	
 		<link rel="canonical" href="<?php echo $pageURL; ?>" />
 
-		<link rel="stylesheet" href="//<?php echo $wikiConfig['site-url']; ?>css/reset.css">
-		<link rel="stylesheet" href="//<?php echo $wikiConfig['site-url']; ?>css/formatting.css">
-		<link rel="stylesheet" href="//<?php echo $wikiConfig['site-url']; ?>css/article.css">
+		<link rel="stylesheet" href="//<?php echo $wikiConfig['site-url']; ?>css/reset.css?v=3">
+		<link rel="stylesheet" href="//<?php echo $wikiConfig['site-url']; ?>css/formatting.css?v=3">
+		<link rel="stylesheet" href="//<?php echo $wikiConfig['site-url']; ?>css/article.css?v=3">
 
 		<!-- pass some vars to javascript api -->
 		<script>
@@ -120,27 +120,16 @@
 			wikiLang = "<?php echo $articleLang; ?>",
 			wikiSub = "<?php echo _WIKI_MAIN_TITLE; ?>";
 		</script>
-		<script src="//<?php echo $wikiConfig['site-url']; ?>javascripts/utils.js"></script>
-		<script src="//<?php echo $wikiConfig['site-url']; ?>javascripts/jquery.js"></script>
-		<script src="//<?php echo $wikiConfig['site-url']; ?>javascripts/article.js"></script>
+		<script src="//<?php echo $wikiConfig['site-url']; ?>javascripts/utils.js?v=4"></script>
+		<script src="//<?php echo $wikiConfig['site-url']; ?>javascripts/jquery.js?v=3"></script>
+		<script src="//<?php echo $wikiConfig['site-url']; ?>javascripts/article.js?v=3"></script>
 		
 		<base href="<?php echo $scheme.$wikiConfig['site-url']; ?>">
-		
-		<?php if($wikiConfig['show-social-buttons']==true){ ?>
-		<!-- social buttons -->
-		<script type="text/javascript" src="http://jumpr-social-widgets.googlecode.com/files/jumpWidgets.js?load=buttons" ></script>
-		<?php } ?>
 	</head>
 	<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject skin-vector action-view vector-animateLayout">
 		<?php echo aboutBox(); ?>
 
 		<div id="wrapper">
-			<?php
-				if($wikiConfig['show-social-buttons']==true){
-					echo '<div class="jump-share-icons" id="jumpr-share-float"><a target="_blank" href="http://jumpr.me/?redir=share&ref=widget-text&url='.urlencode($pageURL).'&msg=" data-url="'.$pageURL.'" data-msg="" data-remove="" data-fb="" data-sitename="Wikipedia" data-count="true" data-gplus-count="true" data-grey-style="false" data-layout="box" data-tooltip="bottom"></a></div>';
-				}
-			?>
-				
 			<nav id="main-bar">
 				<div id="main-bar-wrapper">
 					<div class="fleft">

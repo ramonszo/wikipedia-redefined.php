@@ -39,21 +39,16 @@
             <link rel="license" href="//www.gnu.org/copyleft/fdl.html">
             <meta name="language" content="Many">
    
-            <link rel="stylesheet" href="//<?php echo $wikiConfig['site-url']; ?>css/reset.css">
-            <link rel="stylesheet" href="//<?php echo $wikiConfig['site-url']; ?>css/home.css">
+            <link rel="stylesheet" href="//<?php echo $wikiConfig['site-url']; ?>css/reset.css?v=3">
+            <link rel="stylesheet" href="//<?php echo $wikiConfig['site-url']; ?>css/home.css?v=3">
    
             <script>wikiLang="<?php echo $wikiConfig['language']; ?>";</script>
-            <script src="//<?php echo $wikiConfig['site-url']; ?>javascripts/utils.js"></script>
-            <script src="//<?php echo $wikiConfig['site-url']; ?>javascripts/jquery.js"></script>
-            <script src="//<?php echo $wikiConfig['site-url']; ?>javascripts/jquery.tiptip.js"></script>
-            <script src="//<?php echo $wikiConfig['site-url']; ?>javascripts/home.js"></script>
+            <script src="//<?php echo $wikiConfig['site-url']; ?>javascripts/utils.js?v=4"></script>
+            <script src="//<?php echo $wikiConfig['site-url']; ?>javascripts/jquery.js?v=3"></script>
+            <script src="//<?php echo $wikiConfig['site-url']; ?>javascripts/jquery.tiptip.js?v=3"></script>
+            <script src="//<?php echo $wikiConfig['site-url']; ?>javascripts/home.js?v=3"></script>
             
             <base href="<?php echo $scheme.$wikiConfig['site-url']; ?>">
-            
-            <?php if($wikiConfig['show-social-buttons']==true){ ?>
-            <!-- social buttons -->
-            <script type="text/javascript" src="http://jumpr-social-widgets.googlecode.com/files/jumpWidgets.js?load=buttons" ></script>
-            <?php } ?>
    </head>
    <body onresize="adjustBody();">
       <nav id="languages">

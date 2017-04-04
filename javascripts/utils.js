@@ -83,7 +83,7 @@ function searchWiki(input, textarea) {
         wikiSearches++;
         
         var script = document.createElement("script");
-        script.src = "http://"+wikiLang+".wikipedia.org/w/api.php?action=opensearch&search="+encodeURIComponent(term)+"&namespace=0&callback=displayWikiResults["+wikiSearches+"]";
+        script.src = "https://"+wikiLang+".wikipedia.org/w/api.php?action=opensearch&search="+encodeURIComponent(term)+"&namespace=0&callback=displayWikiResults["+wikiSearches+"]";
         script.type = "text/javascript";
         document.getElementsByTagName('head')[0].appendChild(script);
         
@@ -102,7 +102,7 @@ function searchWiki(input, textarea) {
             getElement('wikiResults').innerHTML=html;
             getElement('wikiResults').style.display='block';
             getElement('wikiResults').style.marginTop=input.offsetHeight+'px';
-            getElement('wikiResults').style.marginLeft='-'+(input.offsetWidth-16)+'px';
+            getElement('wikiResults').style.marginLeft='-'+(input.offsetWidth-31)+'px';
             getElement('wikiResults').style.width=(input.offsetWidth-2)+'px';
         };
         
