@@ -1,14 +1,11 @@
 # Wikipedia Redefined
-[![Wikipedia Redefined Preview](https://raw.githubusercontent.com/ramon82/wikipedia-redefined.php/master/preview.png)](https://projects.ramon.codes/wikipedia-redefined)
+![Wikipedia Redefined Preview](https://raw.githubusercontent.com/ramon82/wikipedia-redefined.php/master/preview.png)
 
 
 ## A different way to read wiki articles. 
 This is a side project to achieve a new layout for Wikipedia. The original idea came from Wikipedia Redefined (http://wikipediaredefined.com) by NEW! agency (http://newisnew.lt/en). 
 
 As you can see, this code was written a very long time ago and will not be updated. I made this code just for studies, but you can fork it if you want to contribute or build your own Wikipedia :)
-
-See a demo at https://projects.ramon.codes/wikipedia-redefined
-
 
 ## Installation
 To install this, just copy to a directory and edit the configuration.php
