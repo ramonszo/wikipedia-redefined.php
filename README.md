@@ -26,3 +26,9 @@ The main code (php files, some js, css) is free software; you can redistribute
 it and/or modify it under the terms of the GNU General Public License as
 published by the Free Software Foundation; either version 2 of the License, or
 (at your option) any later version.
+
+---
+
+<a href="https://ramon82.com" target="_blank">
+  <img src="https://utils.ramon82.com/hit.svg?referrer=github.com&title=GitHub%20/%20wikipedia-redefined.php&location=https://github.com/ramon82/wikipedia-redefined.php" width="24" height="24" />
+</a>
