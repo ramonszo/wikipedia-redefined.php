@@ -1,5 +1,5 @@
-# Wikipedia Redefined
-![Wikipedia Redefined Preview](https://raw.githubusercontent.com/ramon82/wikipedia-redefined.php/master/preview.png)
+# wikipedia-redefined.php
+![Wikipedia Redefined Preview](https://raw.githubusercontent.com/ramonszo/wikipedia-redefined.php/master/preview.png)
 
 
 ## A different way to read wiki articles. 
@@ -15,7 +15,7 @@ article page. If you can, please contribute by adding more functionalities.
 
 
 ## File structure
-See [`FILE-STRUCTURE.md`](https://github.com/ramon82/wikipedia-redefined.php/blob/master/FILE-STRUCTURE.md)
+See [`FILE-STRUCTURE.md`](https://github.com/ramonszo/wikipedia-redefined.php/blob/master/FILE-STRUCTURE.md)
 
 
 ## License
@@ -29,6 +29,6 @@ published by the Free Software Foundation; either version 2 of the License, or
 
 ---
 
-<a href="https://ramon82.com" target="_blank">
-  <img src="https://utils.ramon82.com/hit.svg?referrer=github.com&title=GitHub%20/%20wikipedia-redefined.php&location=https://github.com/ramon82/wikipedia-redefined.php" width="24" height="24" />
+<a href="https://ramon.codes" target="_blank">
+  <img src="https://ws.ramon.codes/hit.svg?referrer=github.com&title=GitHub%20/%20wikipedia-redefined.php&location=https://github.com/ramonszo/wikipedia-redefined.php" width="24" height="24" />
 </a>
